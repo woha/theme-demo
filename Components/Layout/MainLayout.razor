@@ -1,6 +1,4 @@
-﻿@using ThemeDemo.Components
-
-@inherits LayoutComponentBase
+﻿@inherits LayoutComponentBase
 
 <FluentDesignTheme StorageName="ThemeDemo"/>
 
@@ -30,8 +28,8 @@
     </FluentFooter>
 </FluentLayout>
 
-<FluentDialogProvider />
-@* <FluentDialogProvider @rendermode="InteractiveServer"/> *@
+@* <FluentDialogProvider /> *@
+<FluentDialogProvider @rendermode="InteractiveServer"/>
 
 <div id="blazor-error-ui">
     An unhandled error has occurred.
