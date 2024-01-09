@@ -1,12 +1,9 @@
 ﻿@inherits LayoutComponentBase
-
-<FluentDesignTheme StorageName="ThemeDemo"/>
-
 <FluentLayout>
     <FluentHeader>
         ThemeDemo
         <FluentSpacer/>
-        <div style="padding-right: 10px;display: flex;align-items: center;">
+        <div style="padding-right: 24px;display: flex;align-items: center;">
             <SiteSettings/>
         </div>
     </FluentHeader>
@@ -28,7 +25,6 @@
     </FluentFooter>
 </FluentLayout>
 
-@* <FluentDialogProvider /> *@
 <FluentDialogProvider @rendermode="InteractiveServer"/>
 
 <div id="blazor-error-ui">

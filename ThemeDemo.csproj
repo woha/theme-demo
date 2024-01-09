@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-ThemeDemo-17eed423-ffb2-4efb-a5b1-98e2cfd448a1</UserSecretsId>
+    <UserSecretsId>aspnet-ThemeDemo-a317480e-105c-4707-b686-094fe3713acf</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
